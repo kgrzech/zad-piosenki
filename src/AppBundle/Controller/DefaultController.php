@@ -64,7 +64,13 @@ class DefaultController extends Controller
     /*
      * G
      */
-
+        /**
+    * @Route("/piosenka-tylko-tyle.html", name="piosenka-tylko-tyle")
+    */
+    public function tylkotyleAction()
+    {
+       return $this->render('default/piosenka-tylko-tyle.html.twig');
+    }
     /*
      * H
      */
